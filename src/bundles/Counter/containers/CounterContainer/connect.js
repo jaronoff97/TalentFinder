@@ -10,7 +10,13 @@ const mapStateToProps = (state) => ({
 
 const mapActionsToProps = { increment, decrement }
 
-export default (container) => compose(
+type Props = {
+  counter: number,
+  increment: Function,
+  decrement: Function,
+} 
+
+export default (container: any) => compose(
   connect(
     mapStateToProps,
     mapActionsToProps,

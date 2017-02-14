@@ -4,6 +4,9 @@ import type { Counter } from './types'
 
 type Action = {
   type: string,
+  payload?: Object,
+  error?: boolean,
+  meta?: any
 }
 
 const INCREMENT = 'INCREMENT'
