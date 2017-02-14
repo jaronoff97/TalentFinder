@@ -1,16 +1,15 @@
 {
-  "name": "react-native-redux-starter-kit",
+  "name": "TalentFinder",
   "version": "2.0.0",
-  "description": "Get started with React Native and Redux.",
+  "description": "An app to find musicians for events.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LeoLeBras/react-native-redux-starter-kit"
+    "url": "https://github.com/jaronoff97/TalentFinder.git"
   },
-  "author": "Léo LE BRAS <leo.lebrasf@gmail.com> (http://github.com/LeoLeBras)",
-  "contributors": "Charles MANGWA <charles.mangwa@gmail.com> (http://github.com/CharlesMangwa)",
+  "author": "Jacob Aronoff <jacobaronoff45@gmail.com> (http://github.com/jaronoff97)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LeoLeBras/react-native-redux-starter-kit/issues"
+    "url": "https://github.com/jaronoff97/TalentFinder.git/issues"
   },
   "scripts": {
     "start": "node_modules/react-native/packager/packager.sh",
@@ -29,6 +28,7 @@
     "immutable": "^3.8.1",
     "react": "^15.4.1",
     "react-native": "^0.39.0",
+    "react-native-firestack": "^2.3.9",
     "react-native-router-flux": "^3.26.0",
     "react-redux": "^4.4.6",
     "recompose": "^0.20.2",
