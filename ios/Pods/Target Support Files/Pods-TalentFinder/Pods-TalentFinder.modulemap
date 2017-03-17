@@ -1,6 +1,0 @@
-framework module Pods_TalentFinder {
-  umbrella header "Pods-TalentFinder-umbrella.h"
-
-  export *
-  module * { export * }
-}

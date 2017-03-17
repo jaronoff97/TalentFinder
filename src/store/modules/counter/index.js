@@ -8,23 +8,27 @@ type Action = {
   error?: boolean,
   meta?: any
 }
+state = {
+  number: 0,
+  previousDirection: "Up"
+}
 
 const INCREMENT = 'INCREMENT'
 const DECREMENT = 'DECREMENT'
 
-export default function counter(state: Counter = 0, action: Action): Counter {
+export default function counter(state = state, action: Action) {
   switch (action.type) {
     case DECREMENT:
-      return state - 1
+      return {...state, state.number - 1}
     case INCREMENT:
-      return state + 1
+      return {...state, state.number + 1}
     default:
       return state
   }
 }
 
 export const decrement = (): Action => ({
-  type: DECREMENT,
+  type: DECREMENT
 })
 
 export const increment = (): Action => ({

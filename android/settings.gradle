@@ -1,5 +1,3 @@
 rootProject.name = 'TalentFinder'
-include ':react-native-firestack'
-project(':react-native-firestack').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firestack/android')
 
 include ':app'

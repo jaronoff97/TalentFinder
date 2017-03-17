@@ -22,12 +22,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		417B95FCC693A0FED4E6E07D /* Pods_TalentFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352E27895E110171F45B5B99 /* Pods_TalentFinder.framework */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		89BED0EB1E52ACE700A377C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89BED0EA1E52ACE700A377C6 /* GoogleService-Info.plist */; };
-		BEF0CB009A5645F1AFF3060C /* libFirestack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 872FB6DF5C7E43B39A68DCDD /* libFirestack.a */; };
-		F483BF6E63F11367C2CD3C42 /* Pods_TalentFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDA6669D97F47F806090B35 /* Pods_TalentFinderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,56 +118,49 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
-		895A44EA1E52A795008AB8C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 418D8D551FC54D7580409581 /* Firestack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = Firestack;
-		};
-		895A44F21E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		892696851E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A283A1D9B042B00D4039D;
 			remoteInfo = "RCTImage-tvOS";
 		};
-		895A44F61E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		892696891E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28471D9B043800D4039D;
 			remoteInfo = "RCTLinking-tvOS";
 		};
-		895A44FA1E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		8926968D1E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
 			remoteInfo = "RCTNetwork-tvOS";
 		};
-		895A44FE1E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		892696911E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28611D9B046600D4039D;
 			remoteInfo = "RCTSettings-tvOS";
 		};
-		895A45021E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		892696951E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
 			remoteInfo = "RCTText-tvOS";
 		};
-		895A45071E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		8926969A1E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
 			remoteInfo = "RCTWebSocket-tvOS";
 		};
-		895A450B1E52A795008AB8C4 /* PBXContainerItemProxy */ = {
+		8926969E1E7B879A00554292 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 			proxyType = 2;
@@ -200,18 +189,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TalentFinder/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TalentFinder/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		21F58942E8026223FCA9DCFB /* Pods-TalentFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalentFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalentFinderTests/Pods-TalentFinderTests.release.xcconfig"; sourceTree = "<group>"; };
-		352E27895E110171F45B5B99 /* Pods_TalentFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalentFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		418D8D551FC54D7580409581 /* Firestack.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = Firestack.xcodeproj; path = "../node_modules/react-native-firestack/ios/Firestack.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
-		812935FA95F2F791FAFB5C37 /* Pods-TalentFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalentFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalentFinder/Pods-TalentFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		872FB6DF5C7E43B39A68DCDD /* libFirestack.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libFirestack.a; sourceTree = "<group>"; };
-		89BED0EA1E52ACE700A377C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9B2EA3E72FD5294086D3661C /* Pods-TalentFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalentFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalentFinder/Pods-TalentFinder.release.xcconfig"; sourceTree = "<group>"; };
-		9D02159F653AAEA869BF168E /* Pods-TalentFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalentFinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalentFinderTests/Pods-TalentFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFDA6669D97F47F806090B35 /* Pods_TalentFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalentFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +200,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				F483BF6E63F11367C2CD3C42 /* Pods_TalentFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +218,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				BEF0CB009A5645F1AFF3060C /* libFirestack.a in Frameworks */,
-				417B95FCC693A0FED4E6E07D /* Pods_TalentFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
-				895A44F31E52A795008AB8C4 /* libRCTImage-tvOS.a */,
+				892696861E7B879A00554292 /* libRCTImage-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -276,7 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
-				895A44FB1E52A795008AB8C4 /* libRCTNetwork-tvOS.a */,
+				8926968E1E7B879A00554292 /* libRCTNetwork-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,7 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
-				895A44FF1E52A795008AB8C4 /* libRCTSettings-tvOS.a */,
+				892696921E7B879A00554292 /* libRCTSettings-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -319,7 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
-				895A45081E52A795008AB8C4 /* libRCTWebSocket-tvOS.a */,
+				8926969B1E7B879A00554292 /* libRCTWebSocket-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -327,7 +304,6 @@
 		13B07FAE1A68108700A75B9A /* TalentFinder */ = {
 			isa = PBXGroup;
 			children = (
-				89BED0EA1E52ACE700A377C6 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -343,20 +319,9 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
-				895A450C1E52A795008AB8C4 /* libReact-tvOS.a */,
+				8926969F1E7B879A00554292 /* libReact-tvOS.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		16A4D5E3B119BAED328EE505 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				812935FA95F2F791FAFB5C37 /* Pods-TalentFinder.debug.xcconfig */,
-				9B2EA3E72FD5294086D3661C /* Pods-TalentFinder.release.xcconfig */,
-				9D02159F653AAEA869BF168E /* Pods-TalentFinderTests.debug.xcconfig */,
-				21F58942E8026223FCA9DCFB /* Pods-TalentFinderTests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -372,18 +337,9 @@
 			isa = PBXGroup;
 			children = (
 				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
-				895A44F71E52A795008AB8C4 /* libRCTLinking-tvOS.a */,
+				8926968A1E7B879A00554292 /* libRCTLinking-tvOS.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7D3A3B20D41E2661C2242450 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				352E27895E110171F45B5B99 /* Pods_TalentFinder.framework */,
-				EFDA6669D97F47F806090B35 /* Pods_TalentFinderTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -400,7 +356,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				418D8D551FC54D7580409581 /* Firestack.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -409,7 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				832341B51AAA6A8300B99B32 /* libRCTText.a */,
-				895A45031E52A795008AB8C4 /* libRCTText-tvOS.a */,
+				892696961E7B879A00554292 /* libRCTText-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -421,8 +376,6 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* TalentFinderTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				16A4D5E3B119BAED328EE505 /* Pods */,
-				7D3A3B20D41E2661C2242450 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -437,14 +390,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		895A44E71E52A795008AB8C4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				895A44EB1E52A795008AB8C4 /* libFirestack.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -452,12 +397,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TalentFinderTests" */;
 			buildPhases = (
-				6945EFB91FE5C4113FA5C210 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				2A798952EBF2069B3806F34D /* [CP] Embed Pods Frameworks */,
-				307B6A82810996D73138DC34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -473,13 +415,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TalentFinder" */;
 			buildPhases = (
-				942F1EB5B8E5335F345339CE /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4D5B79B98CD03DF7689DACDB /* [CP] Embed Pods Frameworks */,
-				525919205C083DE86351EB93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -496,7 +435,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 610;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -520,10 +459,6 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
-				{
-					ProductGroup = 895A44E71E52A795008AB8C4 /* Products */;
-					ProjectRef = 418D8D551FC54D7580409581 /* Firestack.xcodeproj */;
-				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -662,60 +597,53 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A44EB1E52A795008AB8C4 /* libFirestack.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libFirestack.a;
-			remoteRef = 895A44EA1E52A795008AB8C4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		895A44F31E52A795008AB8C4 /* libRCTImage-tvOS.a */ = {
+		892696861E7B879A00554292 /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTImage-tvOS.a";
-			remoteRef = 895A44F21E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 892696851E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A44F71E52A795008AB8C4 /* libRCTLinking-tvOS.a */ = {
+		8926968A1E7B879A00554292 /* libRCTLinking-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTLinking-tvOS.a";
-			remoteRef = 895A44F61E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 892696891E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A44FB1E52A795008AB8C4 /* libRCTNetwork-tvOS.a */ = {
+		8926968E1E7B879A00554292 /* libRCTNetwork-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTNetwork-tvOS.a";
-			remoteRef = 895A44FA1E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 8926968D1E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A44FF1E52A795008AB8C4 /* libRCTSettings-tvOS.a */ = {
+		892696921E7B879A00554292 /* libRCTSettings-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTSettings-tvOS.a";
-			remoteRef = 895A44FE1E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 892696911E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A45031E52A795008AB8C4 /* libRCTText-tvOS.a */ = {
+		892696961E7B879A00554292 /* libRCTText-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTText-tvOS.a";
-			remoteRef = 895A45021E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 892696951E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A45081E52A795008AB8C4 /* libRCTWebSocket-tvOS.a */ = {
+		8926969B1E7B879A00554292 /* libRCTWebSocket-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libRCTWebSocket-tvOS.a";
-			remoteRef = 895A45071E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 8926969A1E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		895A450C1E52A795008AB8C4 /* libReact-tvOS.a */ = {
+		8926969F1E7B879A00554292 /* libReact-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libReact-tvOS.a";
-			remoteRef = 895A450B1E52A795008AB8C4 /* PBXContainerItemProxy */;
+			remoteRef = 8926969E1E7B879A00554292 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -734,7 +662,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				89BED0EB1E52ACE700A377C6 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,96 +681,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
-		};
-		2A798952EBF2069B3806F34D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalentFinderTests/Pods-TalentFinderTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		307B6A82810996D73138DC34 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalentFinderTests/Pods-TalentFinderTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D5B79B98CD03DF7689DACDB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalentFinder/Pods-TalentFinder-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		525919205C083DE86351EB93 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalentFinder/Pods-TalentFinder-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6945EFB91FE5C4113FA5C210 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		942F1EB5B8E5335F345339CE /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -890,7 +727,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D02159F653AAEA869BF168E /* Pods-TalentFinderTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -900,10 +736,6 @@
 				INFOPLIST_FILE = TalentFinderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalentFinder.app/TalentFinder";
 			};
@@ -911,17 +743,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21F58942E8026223FCA9DCFB /* Pods-TalentFinderTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = TalentFinderTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalentFinder.app/TalentFinder";
 			};
@@ -929,7 +756,6 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 812935FA95F2F791FAFB5C37 /* Pods-TalentFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -942,7 +768,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaronoff.TalentFinder;
 				PRODUCT_NAME = TalentFinder;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -950,7 +775,6 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B2EA3E72FD5294086D3661C /* Pods-TalentFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -962,7 +786,6 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaronoff.TalentFinder;
 				PRODUCT_NAME = TalentFinder;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1006,7 +829,6 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/ReactCommon/**",
-					"$(SRCROOT)/../node_modules/react-native-firestack/ios/Firestack",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1047,7 +869,6 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/ReactCommon/**",
-					"$(SRCROOT)/../node_modules/react-native-firestack/ios/Firestack",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
